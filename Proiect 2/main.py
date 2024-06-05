@@ -54,6 +54,10 @@ class Application(tk.Tk):
         # Buton pentru aplicarea transformarii si desenaprea acesteia in frameul pentru zona 3
         self.button = ttk.Button(self.frame_text, text="Aplică", command=self.apply_transformare)
         self.button.grid(row=2, column=0, columnspan=2, pady=10)
+        
+        # Buton de resetare
+        self.reset_button = ttk.Button(self.frame_text, text="Reset", command=self.reset_canvas)
+        self.reset_button.grid(row=3, column=0, columnspan=2, pady=10)
 
         # Incarcarea listelor
         self.populate_liste()
