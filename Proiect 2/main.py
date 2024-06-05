@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 import math
 
-# DISCAMER: toate figurile sunt centrate in puncul de coordonate (0,0)
+# DISCLAMER: toate figurile sunt centrate in puncul de coordonate (0,0)
 class Application(tk.Tk):
     def __init__(self):
         super().__init__()
