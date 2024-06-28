@@ -1,0 +1,12 @@
+Aplicație pentru desenarea transformărilor complexe în plan folosind limbajul Python, PyQt6, PySimpleGUI sau Tkinter și matplotlib.
+
+În urma execuției script-ului main se va deschide o fereastră care va avea trei zone verticale și o zonă orizontală.
+Prima zonă verticală va conține o listă cu figuri din care utilizatorul poate să aleagă. Se vor include segmente, triunghiuri, patrulatere, pentagoane, hexagoane (regulate sau nu), semiplanul superior, cercuri, 
+coroane circulare, discuri etc.
+
+A doua zonă va conține un reper în care va fi afișată figura pe care o alege utilizatorul din meniul disponibil în prima zonă.
+Zona orizontală (plasată sub cele trei zonă verticale) va conține un câmp în care utilizatorul va introduce text. Acest text va fi expresia unei
+transformării geometrice sau a unei funcții complexe. După scrierea textului utilizatorul va apăsa pe un buton pentru a salva funcția. Numele funcției va apărea unde în fereastra deschisă.
+
+A treia zonă verticală va conține un reper și desenul imaginii figurii din zona a doua în urma aplicării transformării/funcției introduse de utilizator.
+Se va adăuga un meniu care să permită salvarea reprezentării geometrice a imaginii din zona a treia.
